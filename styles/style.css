@@ -1,0 +1,388 @@
+@font-face {
+  font-family: "Graphik LCG";
+  font-weight: 400;
+  src: url(../fonts/GraphikLCG-Regular.woff2);
+}
+@font-face {
+  font-family: "Graphik LCG";
+  font-weight: 300;
+  src: url(../fonts/GraphikLCG-Light.woff2);
+}
+@font-face {
+  font-family: "Graphik LCG";
+  font-weight: 600;
+  src: url(../fonts/GraphikLCG-Medium.woff2);
+}
+@font-face {
+  font-family: "Graphik LCG";
+  font-weight: 800;
+  src: url(../fonts/GraphikLCG-Bold.woff2);
+}
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Graphik LCG";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1090px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top {
+  background-color: #1B1B1B;
+  height: 839px;
+  color: white;
+  position: relative;
+}
+.top a {
+  color: white;
+}
+.top .chef-img-background {
+  position: absolute;
+  top: 0;
+  right: -16px;
+}
+.top .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.top .container .left-side-section-top img {
+  padding-top: 282px;
+  margin-bottom: 35px;
+}
+.top .container .left-side-section-top h3 {
+  font-weight: 300;
+  line-height: 28px;
+  margin-bottom: 90px;
+}
+.top .container .left-side-section-top .wrapper-box-email a {
+  margin-left: 10px;
+  font-size: 14px;
+}
+.top .container .right-side-section-top .chef-img {
+  position: absolute;
+  top: 183px;
+  right: -70px;
+}
+
+.our-benefits {
+  padding: 81px 0;
+  color: #333333;
+}
+.our-benefits .container h2 {
+  font-size: 45px;
+}
+.our-benefits .container h2:first-child {
+  margin-bottom: 16px;
+}
+.our-benefits .container h2:nth-child(3) {
+  margin-bottom: 16px;
+}
+.our-benefits .container h2:nth-child(5) {
+  margin-left: -6px;
+  margin-top: 60px;
+}
+.our-benefits .container .subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.our-benefits .container .subtitle:nth-child(2) {
+  margin-bottom: 80px;
+}
+.our-benefits .container .subtitle:nth-child(4) {
+  padding-bottom: 75px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.0509803922);
+}
+
+.design {
+  position: relative;
+}
+.design .ellips {
+  position: absolute;
+  top: 128px;
+  left: 0;
+  z-index: -1;
+}
+.design .container {
+  max-width: 1110px;
+  padding-left: 30px;
+}
+.design .container .wrapper-disign-section-content {
+  display: flex;
+  justify-content: space-between;
+}
+.design .container .wrapper-disign-section-content .left-side-disign-section-content .ikia-img {
+  box-shadow: 0px 0px 15px 0px rgba(75, 58, 58, 0.15);
+}
+.design .container .wrapper-disign-section-content .right-side-disign-section-content {
+  margin-top: -20px;
+}
+.design .container .wrapper-disign-section-content .right-side-disign-section-content .wrapper-line {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.design .container .wrapper-disign-section-content .right-side-disign-section-content .wrapper-line .line {
+  width: 44px;
+  height: 5px;
+  background-color: #FD3300;
+}
+.design .container .wrapper-disign-section-content .right-side-disign-section-content .about-design {
+  font-size: 32px;
+  font-weight: 600;
+  color: #333333;
+  display: flex;
+  justify-content: flex-end;
+  line-height: 52.5px;
+  margin-top: 5px;
+  margin-bottom: 67px;
+}
+.design .container .wrapper-disign-section-content .right-side-disign-section-content .about-design:nth-child(6) {
+  margin-bottom: 0;
+}
+.design .container .wrapper-disign-section-content .right-side-disign-section-content .about-design:nth-child(7) {
+  margin-top: -10px;
+}
+.design .wrapper-img-disign-secton {
+  margin-top: -30px;
+  position: relative;
+}
+.design .wrapper-img-disign-secton img {
+  z-index: -1;
+}
+.design .wrapper-img-disign-secton img:nth-child(2) {
+  box-shadow: 0px 0px 15px 0px rgba(75, 58, 58, 0.15);
+  position: absolute;
+  top: 0;
+  left: 497px;
+  z-index: 1;
+  height: 334px;
+}
+.design .wrapper-img-disign-secton-two {
+  margin-top: 39px;
+  margin-left: 113px;
+}
+.design .wrapper-img-disign-secton-two img:nth-child(2) {
+  margin-left: 58px;
+  box-shadow: 0px 0px 15px 0px rgba(75, 58, 58, 0.15);
+}
+
+.about-booking {
+  color: #333333;
+  padding: 108px 0;
+}
+.about-booking .container {
+  max-width: 1110px;
+  padding-left: 30px;
+}
+.about-booking .container h2 {
+  font-size: 45px;
+  margin-bottom: 25px;
+}
+.about-booking .container .description {
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.about-booking .container .box-card {
+  margin-top: 77px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-booking .container .box-card .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px;
+}
+.about-booking .container .box-card .card:nth-child(3) {
+  padding: 30px 20px 10px;
+}
+.about-booking .container .box-card .card .description-card {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 15px;
+  font-weight: 600;
+}
+.about-booking .container .wrapper-order-box {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+  padding-top: 105px;
+  display: flex;
+  font-size: 24px;
+  min-height: 400px;
+  font-weight: 600;
+  gap: 15px;
+  height: 440px;
+}
+.about-booking .container .wrapper-order-box .left-column {
+  width: 18%;
+}
+.about-booking .container .wrapper-order-box .left-column .title {
+  padding-bottom: 16px;
+  width: 100%;
+  text-align: center;
+  border-bottom: 3px solid #191919;
+  font-size: 26px;
+}
+.about-booking .container .wrapper-order-box .left-column .counter-box {
+  height: 41.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid #191919;
+  font-weight: 800;
+  gap: 12px;
+}
+.about-booking .container .wrapper-order-box .left-column .counter-box button {
+  border: none;
+  background-color: transparent;
+  color: tomato;
+  font-size: 26px;
+  font-weight: 800;
+  cursor: pointer;
+}
+.about-booking .container .wrapper-order-box .central-column {
+  width: 44.2%;
+  font-weight: 800;
+}
+.about-booking .container .wrapper-order-box .central-column .title {
+  padding-bottom: 16px;
+  width: 100%;
+  text-align: center;
+  border-bottom: 3px solid #191919;
+  font-size: 26px;
+  font-weight: 600;
+}
+.about-booking .container .wrapper-order-box .central-column .about-order {
+  height: 41.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid #191919;
+}
+.about-booking .container .wrapper-order-box .central-column .about-order .left-side {
+  margin-top: 10px;
+}
+.about-booking .container .wrapper-order-box .central-column .about-order .left-side .title-description {
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+.about-booking .container .wrapper-order-box .central-column .about-order .right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 5px;
+}
+.about-booking .container .wrapper-order-box .central-column .about-order .right-side .description {
+  font-size: 18px;
+  margin-top: -3px;
+  font-weight: 800;
+}
+.about-booking .container .wrapper-order-box .border {
+  width: 3px;
+  height: 430px;
+  background-color: #191919;
+}
+.about-booking .container .wrapper-order-box .right-column {
+  width: 30.4%;
+}
+.about-booking .container .wrapper-order-box .right-column .title {
+  padding-bottom: 16px;
+  width: 100%;
+  text-align: center;
+  border-bottom: 3px solid #191919;
+  font-size: 26px;
+}
+.about-booking .container .wrapper-order-box .right-column .price-box {
+  height: 41.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid #191919;
+  font-weight: 800;
+}
+.about-booking .container h3 {
+  font-size: 32px;
+  font-weight: 600;
+  padding-left: 20px;
+  margin-top: 24px;
+}
+.about-booking .container .wrapper-button-buy {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.about-booking .container .wrapper-button-buy a .circle-btn {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  background-color: #FC341D;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  position: relative;
+  line-height: 34px;
+  padding-top: 5px;
+}
+.about-booking .container .wrapper-button-buy a .circle-btn .additional-circle {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background-color: #121212;
+  color: white;
+  font-size: 48px;
+  position: absolute;
+  top: 10px;
+  right: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  padding-top: 3px;
+  padding-left: 3px;
+}/*# sourceMappingURL=style.css.map */
