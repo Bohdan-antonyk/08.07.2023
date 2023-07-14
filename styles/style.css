@@ -33,6 +33,10 @@ body {
   padding: 0 20px;
 }
 
+button {
+  cursor: pointer;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -385,4 +389,129 @@ li {
   font-weight: 400;
   padding-top: 3px;
   padding-left: 3px;
+}
+
+.preference {
+  background-color: #1B1B1B;
+  height: 693px;
+  color: white;
+  padding: 103px 0;
+}
+.preference h2 {
+  font-size: 45px;
+  margin-bottom: 23px;
+}
+.preference .description {
+  line-height: 30px;
+  font-size: 18px;
+}
+.preference .wrapper-our-benefits {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 63px;
+  margin-left: 10px;
+  margin-bottom: 189px;
+}
+.preference .wrapper-our-benefits .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.preference .wrapper-our-benefits .card h3 {
+  text-align: center;
+  margin-top: 9px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.preference .wrapper-our-benefits .card h3 span {
+  display: block;
+  color: #FD351E;
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: -12px;
+}
+.preference .wrapper-box {
+  display: flex;
+  min-width: 1250px;
+  z-index: -1;
+}
+.preference .wrapper-box .wrapper-box-right img {
+  margin-top: -88px;
+  margin-left: -75px;
+  z-index: 1;
+}
+
+.our-works {
+  background-color: white;
+  color: #333333;
+  padding: 30px 0 50px;
+}
+.our-works .container .title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  margin-bottom: 26px;
+}
+.our-works .container .btn {
+  background: linear-gradient(273.43deg, #5C9FF9 -16.34%, #0058DC 97.2%), linear-gradient(0deg, #C4C4C4, #C4C4C4);
+  border-image-source: linear-gradient(273.43deg, #5C9FF9 -16.34%, #0058DC 97.2%);
+  width: 240px;
+  height: 54px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 0 20px 0 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 110px;
+  cursor: pointer;
+}
+.our-works .container h3 {
+  font-size: 45px;
+  margin-bottom: 37px;
+}
+.our-works .container .wrapper-our-works-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-left: 10px;
+}
+.our-works .container .wrapper-our-works-card .card {
+  border-radius: 5px;
+  color: white;
+  min-height: 230px;
+  min-width: 542px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.our-works .container .wrapper-our-works-card .card:first-child {
+  background-image: url("../img/Rectangle 4.1.png");
+  padding-top: 27px;
+}
+.our-works .container .wrapper-our-works-card .card:first-child .title {
+  margin-bottom: 20px;
+}
+.our-works .container .wrapper-our-works-card .card:first-child .description {
+  margin-top: 23px;
+  margin-bottom: 21px;
+  font-size: 18px;
+}
+.our-works .container .wrapper-our-works-card .card:nth-child(2) {
+  background-image: url("../img/Mask Group.png");
+  padding-top: 27px;
+}
+.our-works .container .wrapper-our-works-card .card:nth-child(2) .title {
+  margin-bottom: 27px;
+  margin-top: 12px;
+}
+.our-works .container .wrapper-our-works-card .card:nth-child(2) .description {
+  margin: 23px 0;
+  font-size: 18px;
 }/*# sourceMappingURL=style.css.map */
