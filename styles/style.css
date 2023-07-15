@@ -445,7 +445,7 @@ li {
 .our-works {
   background-color: white;
   color: #333333;
-  padding: 30px 0 50px;
+  padding: 30px 0 102px;
 }
 .our-works .container .title {
   font-size: 14px;
@@ -514,4 +514,135 @@ li {
 .our-works .container .wrapper-our-works-card .card:nth-child(2) .description {
   margin: 23px 0;
   font-size: 18px;
+}
+
+.footer {
+  background-color: #1B1B1B;
+  height: 560px;
+  padding-top: 73px;
+  color: white;
+}
+.footer .container .wrapper-footer-content {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 84px;
+}
+.footer .container .wrapper-footer-content .first-side-content {
+  width: 36.5%;
+}
+.footer .container .wrapper-footer-content .first-side-content .btn {
+  background: linear-gradient(273.43deg, #5C9FF9 -16.34%, #0058DC 97.2%), linear-gradient(0deg, #C4C4C4, #C4C4C4);
+  border-image-source: linear-gradient(273.43deg, #5C9FF9 -16.34%, #0058DC 97.2%);
+  width: 240px;
+  height: 54px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 0 20px 0 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+.footer .container .wrapper-footer-content .first-side-content .text {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300;
+}
+.footer .container .wrapper-footer-content .second-side-content {
+  font-weight: 300;
+  width: 25%;
+}
+.footer .container .wrapper-footer-content .second-side-content .telegram-wrapper {
+  display: flex;
+  margin-bottom: 16px;
+}
+.footer .container .wrapper-footer-content .second-side-content .telegram-wrapper .right-side-telegram-content {
+  margin-top: -5px;
+}
+.footer .container .wrapper-footer-content .second-side-content .telegram-wrapper .right-side-telegram-content a {
+  color: white;
+  display: block;
+  margin-left: 15px;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+.footer .container .wrapper-footer-content .second-side-content .wpapper-phone {
+  margin-bottom: 22px;
+  display: flex;
+  align-items: center;
+}
+.footer .container .wrapper-footer-content .second-side-content .wpapper-phone a {
+  color: white;
+  margin-left: 15px;
+  font-size: 14px;
+}
+.footer .container .wrapper-footer-content .second-side-content .wrapper-email {
+  display: flex;
+  align-items: center;
+}
+.footer .container .wrapper-footer-content .second-side-content .wrapper-email a {
+  color: white;
+  margin-left: 15px;
+  font-size: 14px;
+}
+.footer .container .wrapper-footer-content .thirth-side-content {
+  width: 27%;
+  margin-top: -5px;
+}
+.footer .container .wrapper-footer-content .thirth-side-content .city {
+  font-size: 18px;
+  font-weight: 600;
+}
+.footer .container .wrapper-footer-content .thirth-side-content .city::before {
+  content: url("../img/placeholder.svg");
+  margin-right: 6px;
+}
+.footer .container .wrapper-footer-content .thirth-side-content .adresse {
+  font-size: 14px;
+  padding-left: 10px;
+  margin-top: 10px;
+  line-height: 22px;
+  margin-bottom: 12px;
+}
+.footer .container .wrapper-footer-content .thirth-side-content a {
+  color: white;
+  font-size: 14px;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.footer .container .wrapper-footer-content .fourth-side-content {
+  width: 19%;
+  margin-top: -5px;
+}
+.footer .container .wrapper-footer-content .fourth-side-content .city {
+  font-size: 18px;
+  font-weight: 600;
+}
+.footer .container .wrapper-footer-content .fourth-side-content .city::before {
+  content: url("../img/placeholder.svg");
+  margin-right: 6px;
+}
+.footer .container .wrapper-footer-content .fourth-side-content .adresse {
+  font-size: 14px;
+  padding-left: 10px;
+  margin-top: 10px;
+  line-height: 22px;
+  margin-bottom: 12px;
+}
+.footer .container .wrapper-developers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 22px;
+}
+.footer .container .wrapper-developers .team2018 {
+  font-size: 14px;
+}
+.footer .container .wrapper-developers svg {
+  margin-left: 20px;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
