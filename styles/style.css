@@ -22,7 +22,7 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Graphik LCG";
+  font-family: "Graphik LCG", sans-serif;
   font-weight: 400;
   font-size: 16px;
 }
@@ -645,4 +645,34 @@ li {
 .footer .container .wrapper-developers svg {
   margin-left: 20px;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1150px) {
+  .chef-img {
+    max-width: 650px;
+  }
+  .wrapper-box-right img {
+    max-width: 450px;
+  }
+  .wrapper-our-works-card {
+    flex-wrap: wrap;
+  }
+  .wrapper-footer-content {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .wrapper-footer-content .first-side-content {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .wrapper-footer-content .second-side-content {
+    width: 100%;
+  }
+  .wrapper-footer-content .thirth-side-content {
+    width: 100%;
+  }
+  .wrapper-footer-content .fourth-side-content {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
